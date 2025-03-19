@@ -1,0 +1,196 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
+
+
+
+header .h_top {
+  background-color: black;
+  color:white;
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  margin: -10px p
+}
+header .h_top p {
+  padding:0 200px;
+}
+header .h_top a{
+  color:white;
+  text-decoration:none;
+  padding: 20px;
+}
+header .h_top ul{ display:flex;
+  padding:20px 200px;
+  background-color: black;
+}
+header .h_top ul li a{
+  border: 1px solid white;
+  font-size: 15.2px;
+}
+
+
+header .h_center nav {
+    display:flex;
+    justify-content:space-between;
+    padding:20px 200px;
+}
+
+header .h_center .hometitle {
+  display:flex;
+  align-items:center;
+  
+  
+}
+
+header .h_center .menu ul {
+  display:flex;
+  justify-content: space-between;
+  padding:0 100px;
+}
+
+header .h_center .menu ul li {
+  padding:10px;
+
+}
+header .h_center nav .icon {
+  display:flex;
+  justify-content: space-between;
+}
+header .h_center nav .icon a {
+  padding:  10px 20px;
+}
+
+header .h_center ul li:nth-child(1) { 
+  color:rgb(36, 86, 194);
+}  
+
+header .wrap {
+  background-image: url('/cozastore/images/slide-02.jpg');
+  background-repeat: no-repeat; 
+  width: 100%; height:930px;
+}
+/* width 값을 100% 바꾼거 블로그정리 */
+
+header .h_bottom .left{
+  display:flex;
+  flex-direction:column;
+  padding: 330px 200px;
+}
+
+header .h_bottom p:nth-child(1) {
+    font-size:30px;
+}
+
+header .h_bottom p:nth-child(2) {
+  display:flex;
+  font-family: serif;
+  font-size: 70px;
+  margin: 10px 0px;
+}
+
+header .h_bottom a {
+  background-color:#717fe0;
+  width:200px;
+  margin-left:10px;
+  margin-top: 20px;
+  padding:15px;
+  color:white;
+  text-align:center;
+  border-radius:100px;
+}
+/* width 대신에 margin-right를 썼음 */
+
+section .mid{
+  display:flex;
+  justify-content: space-around;
+  margin:0px 265px;
+}
+
+section .mid .Women{
+    background-image: url("/cozastore/images/banner-04.jpg");
+    background-size:cover;
+    width:428px; height:289px;
+    border: 1px solid rgb(230, 230, 230);
+    margin:80px 0px;
+    padding: 30px 50px;
+  }
+section .mid .Women h1 {
+  margin:10px 0px;
+}
+
+section .mid .Men{
+    background-image: url("/cozastore/images/banner-02.jpg");
+    background-size: cover;
+    width:428px; height:289px;
+    border: 1px solid rgb(230, 230, 230);
+    margin:80px 0px;
+    padding: 30px 50px;
+  }
+
+section .mid .Accessories {
+  background-image: url("/cozastore/images/banner-03.jpg");
+    background-size: cover;
+    width:428px; height:289px;
+    border: 1px solid rgb(230, 230, 230);
+    margin:80px 0px;
+    padding: 30px 50px;
+}   
+
+section .title h1 {
+  margin:30px 300px;
+}
+
+section nav {
+  display:flex;
+  justify-content:space-around;
+  margin-left: -40px;
+}
+
+section nav ul {
+  display:flex;
+}
+
+section nav ul li {
+  padding: 0px 15px;
+}
+
+section nav  {
+  padding: 0px 30px 0px 40px;
+  width:100%;
+}
+
+section nav .button a{
+  
+  padding:5px 25px;
+  border: 1px solid rgb(230, 230, 230);
+}
+
+section .contents{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:wrap;
+  margin:50px;
+  
+  
+  
+}
+.content img {
+  width:300px;
+  margin:30px 10px;
+}
+.content a {
+  display:flex;
+}
+.content p {
+  color:gray;
+}
+
+
+
+

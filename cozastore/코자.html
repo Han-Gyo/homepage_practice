@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+<link rel="stylesheet" href="./코자.css">
+</link>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+<script src="https://kit.fontawesome.com/6d96aa1fb2.js" crossorigin="anonymous"></script>
+<style>
+  /* header start */
+  /* 
+1. 큰 정렬(가로/세로) 필요하냐?
+display: flex;
+justify-content: space-between;
+align-items: center;
+2. 세부정렬 필요하냐?
+  margin, padding, transform: trnaslate();
+3. 크기
+4. 요소 위에 요소 띄워야하나?
+  띄워야하면 누구 기준? 띄울 요소에 position: relative;
+  띄우려면? position: absolute;
+  top, left, right, bottom;
+ */
+</style>
+
+<body>
+  <header>
+    <div class="h_top">
+      <p>Free shipping for standard order over $100</p>
+      <nav>
+        <ul class="header_nav">
+          <li><a href="#">Help&FAQs</a></li>
+          <li><a href="#">My Account</a></li>
+          <li><a href="#">EN</a></li>
+          <li><a href="#">USD</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="wrap">
+      <div class="h_center">
+        <nav>
+
+          <div class="hometitle">
+            <a href="#"><img src="./코자 로고.png"></a>
+
+            <div class="menu">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="icon">
+            <a href="#"> <i class="fa-solid fa-magnifying-glass"></i> </a>
+            <a href="#"> <i class="fa-solid fa-cart-shopping"></i> </a>
+            <a href="#"> <i class="fa-regular fa-heart"></i> </a>
+          </div>
+        </nav>
+      </div>
+
+      <div class="h_bottom">
+
+        <div class="left">
+          <p>Men New-Season</p>
+          <p>JACKETS & COATS</p> <!-- 얘 선택할 때 nth-child 사용하기-->
+          <a href="#">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section>
+    <div class="mid">
+      <a href="#" class="Women">
+        <h1 class="title">Women</h1>
+        <p class="content">Spring 2018</p>
+      </a>
+      <a href="#" class="Men">
+        <h1 class="title">Men</h1>
+        <p class="content">Spring 2018</p>
+      </a>
+      <a href="#" class="Accessories">
+        <h1>Accessores</h1>
+        <p>New Trend</p>
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <p class="containor">
+    <div class="title">
+      <h1>PRODUCT OVERVIEW</h1>
+    </div>
+    <nav>
+      <a class="subtitle" href="#">
+        <ul>
+          <li><b>All products</b></li>
+          <li>Women</li>
+          <li>Men</li>
+          <li>Bag</li>
+          <li>Shoes</li>
+          <li>Watches</li>
+        </ul>
+      </a>
+      <div class="button">
+        <a class="button1" href="#"><img src="/cozastore/filter-svgrepo-com.svg" height="13">Filter</a>
+        <a class="button2" href="#"><img src="/cozastore/search-svgrepo-com.svg" height="13">Search</a>
+      </div>
+    </nav>
+
+    <section class="contents">
+      <div class="content">
+        <div class="img1">
+          <img src="/cozastore/images/product-01.jpg">
+          <a href="#">Esprit Ruffle Shirt</a>
+          <p>$16.64</p>
+        </div>
+      </div>
+      <div class="content">
+        <div class="img1">
+          <img src="/cozastore/images/product-02.jpg">
+          <a href="#">Esprit Ruffle Shirt</a>
+          <p>$16.64</p>
+        </div>
+      </div>
+      <div class="content">
+        <div class="img1">
+          <img src="/cozastore/images/product-03.jpg">
+          <a href="#">Esprit Ruffle Shirt</a>
+          <p>$16.64</p>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="img1">
+          <img src="/cozastore/images/product-04.jpg">
+          <a href="#">Esprit Ruffle Shirt</a>
+          <p>$16.64</p>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="img1">
+          <img src="/cozastore/images/product-05.jpg">
+          <a href="#">Esprit Ruffle Shirt</a>
+          <p>$16.64</p>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="img1">
+          <img src="/cozastore/images/product-06.jpg">
+          <a href="#">Esprit Ruffle Shirt</a>
+          <p>$16.64</p>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="img1">
+          <img src="/cozastore/images/product-07.jpg">
+          <a href="#">Esprit Ruffle Shirt</a>
+          <p>$16.64</p>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="img1">
+          <img src="/cozastore/images/product-08.jpg">
+          <a href="#">Esprit Ruffle Shirt</a>
+          <p>$16.64</p>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="img1">
+          <img src="/cozastore/images/product-09.jpg">
+          <a href="#">Esprit Ruffle Shirt</a>
+          <p>$16.64</p>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="img1">
+          <img src="/cozastore/images/product-10.jpg">
+          <a href="#">Esprit Ruffle Shirt</a>
+          <p>$16.64</p>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="img1">
+          <img src="/cozastore/images/product-11.jpg">
+          <a href="#">Esprit Ruffle Shirt</a>
+          <p>$16.64</p>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="img1">
+          <img src="/cozastore/images/product-12.jpg">
+          <a href="#">Esprit Ruffle Shirt</a>
+          <p>$16.64</p>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="img1">
+          <img src="/cozastore/images/product-13.jpg">
+          <a href="#">Esprit Ruffle Shirt</a>
+          <p>$16.64</p>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="img1">
+          <img src="/cozastore/images/product-14.jpg">
+          <a href="#">Esprit Ruffle Shirt</a>
+          <p>$16.64</p>
+        </div>
+      </div>
+      <div class="content">
+        <div class="img1">
+          <img src="/cozastore/images/product-15.jpg">
+          <a href="#">Esprit Ruffle Shirt</a>
+          <p>$16.64</p>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="img1">
+          <img src="/cozastore/images/product-16.jpg">
+          <a href="#">Esprit Ruffle Shirt</a>
+          <p>$16.64</p>
+        </div>
+      </div>
+    </section>
+  </p>
+  </section>
+</body>
+
+</html>
